@@ -1,0 +1,53 @@
+{
+    "crashInitSwitch": 1,
+    "animateBgSwitch": 0,
+    "navigationBarSwitch": 0,
+    "default": {
+        "cdnList": [
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 0,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 265,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 1428,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "优化了部分功能",
+            "de": "Funktionen teilweise optimiert",
+            "zh-Hant": "優化了部分功能",
+            "ko": "일부 기능을 최적화함",
+            "ja": "ゲーム動作改善",
+            "en": "Part of the functions optimized",
+            "fr": "Partie des fonctions optimisées",
+            "es": "Optimizadas algunas funciones"
+        },
+        "installer": "pcstarter/prod/starter/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/1.7.1.0/jWj43UExNCfvlLIxRQcVhhPKKF9zbdhY/installer.exe",
+        "installerMD5": "09f823d56cc107f17d483382d9d901a6",
+        "installerSize": 98167936,
+        "version": "1.7.1.0"
+    }
+}
