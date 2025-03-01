@@ -102,8 +102,7 @@
         "78db074ad3d5cd803e1e422eeb7224121f5e19de"
     ],
     "resourcesGray": {
-        "grayUrl": "https://starter-server-api.kurogame.net/launcher/gray",
-        "graySwitch": 1
+        "graySwitch": 0
     },
     "experiment": {
         "download": {

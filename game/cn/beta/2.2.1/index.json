@@ -24,31 +24,31 @@
         "changelog": {},
         "changelogVisible": 0,
         "resourceChunk": {
-            "lastMd5": "9f2b510d92689b881c3efc4bd4fc5971",
-            "lastResourceChunkPath": "pcstarter/prod/game/G152/2.0.3/Ncc8KLB2FhcfAqKI3goJ1qTUJ68Gwh8l/resourceChunk.json",
-            "lastResources": "pcstarter/prod/game/G152/2.0.3/dTSDntvSpAr3nja6SLo6uwpYiAhIu8PL/resource.json",
-            "lastVersion": "2.0.3",
-            "md5": "69708e8fb84391dd19f324ef2a59d21d",
-            "resourceChunkPath": "pcstarter/prod/game/G152/2.1.0/7k2fG6ZVUa7Vl8NFhqM1qCxC0Re5mJAW/resourceChunk.json"
+            "lastMd5": "94f5577044bdcd216896dd0564609585",
+            "lastResourceChunkPath": "pcstarter/prod/game/G152/2.2.0/DHM2VYFpJsi33wl2qT3obUWiKDHC9ucT/resourceChunk.json",
+            "lastResources": "pcstarter/prod/game/G152/2.2.0/4qOQXRgFtEbYo6glSpYrG6N5yMuscF97/resource.json",
+            "lastVersion": "2.2.0",
+            "md5": "de1e2ed1178c913651650f1b2fbd6fd7",
+            "resourceChunkPath": "pcstarter/prod/game/G152/2.2.1/5DGgbPhdUGgcMWzMJWugPBIQOixs1Em7/resourceChunk.json"
         },
-        "resources": "pcstarter/prod/game/G152/2.1.0/6KQ52xSK2ndELoez6xDaopwdKY5m0hum/resource.json",
-        "resourcesBasePath": "pcstarter/prod/game/G152/2.1.0/6KQ52xSK2ndELoez6xDaopwdKY5m0hum/zip",
+        "resources": "pcstarter/prod/game/G152/2.2.1/WpwvP26jdT38AzADIHmpNI95bpCszODv/resource.json",
+        "resourcesBasePath": "pcstarter/prod/game/G152/2.2.1/WpwvP26jdT38AzADIHmpNI95bpCszODv/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "f7300c76c9fe03e0e078398d80965ae2",
-                "version": "2.1.0"
+                "md5": "8db2ee0831aa3a1d83c30c8b555e372b",
+                "version": "2.2.1"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "d50f7a793f4865cac850bf8a2cff25d4",
-                "version": "2.0.3"
+                "md5": "365552371482e766e841c9e8870460f5",
+                "version": "2.2.0"
             }
         },
         "resourcesExcludePath": [],
         "resourcesExcludePathNeedUpdate": [],
         "sampleHashSwitch": 0,
-        "version": "2.1.0"
+        "version": "2.2.1"
     },
     "predownloadSwitch": 1,
     "RHIOptionSwitch": 1,
@@ -74,10 +74,9 @@
         }
     ],
     "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
+        "host": "https://pc-h5sdk-api.kurogame.com",
+        "loginSwitch": 1
     },
-    "checkExeIsRunning": 0,
     "keyFileCheckSwitch": 1,
     "keyFileCheckList": [
         "/Client/Binaries/Win64/Client-Win64-Shipping.exe",
@@ -86,13 +85,11 @@
         "/Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
     ],
     "chunkDownloadSwitch": 0,
+    "checkExeIsRunning": 0,
     "fingerprints": [
         "b63333a20684cc947195443809114156e9e9cd07",
         "9f03afee53588b763e37e897e575b88e2270d507"
     ],
-    "resourcesGray": {
-        "graySwitch": 0
-    },
     "experiment": {
         "download": {
             "dropNetworkError": 1,
