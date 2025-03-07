@@ -1,0 +1,53 @@
+{
+    "crashInitSwitch": 1,
+    "animateBgSwitch": 0,
+    "navigationBarSwitch": 0,
+    "default": {
+        "cdnList": [
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 0,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 265,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 1428,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "1、支持游戏内容增量更新\n2、全新 UI 界面升级\n3、资源占用优化\n4、优化了一些功能体验",
+            "de": "1、Unterstützt den Download neuer Ressourcen. (Bei einer Versionaktualisierung ist es nicht mehr erforderlich, das gesamte Spiel erneut herunterzuladen.)\n2、Vollständig überarbeitetes UI-Interface\n3、Optimierung der Launcher-Auslasung\n4、Verbesserung der Benutzererfahrung bei verschiedenen Funktionen",
+            "zh-Hant": "1、支持遊戲內容增量更新\n2、全新 UI 介面升級\n3、資源占用優化\n4、優化了一些功能體驗",
+            "ko": "1、게임 콘텐츠에 대한 증분 업데이트 지원\n2、새로운 UI 화면 업그레이드\n3、자원 사용 최적화\n4、일부 기능 최적화",
+            "ja": "1、ゲームの増分更新が可能に\n2、UIが大幅アップデート\n3、リソースコストの最適化\n4、機能・体験の最適化",
+            "en": "1、Now supports incremental content updates\n2、Brand new user interface\n3、Optimized resource usage\n4、Improved the interactive experience of certain functionalities",
+            "fr": "1、Prise en charge des mises à jour incrémentales (Plus besoin de retélécharger le jeu complet lors des mises à jour)\n2、Optimisation de l'interface utilisateur\n3、Optimisation de l'utilisation du processeur\n4、Optimisation de certaines fonctionnalités",
+            "es": "1、Soporta actualizaciones incrementales del contenido del juego.\n2、Optimización de la IU.\n3、Optimización del uso de la CPU.\n4、Optimización de ciertas funcionalidades."
+        },
+        "installer": "pcstarter/prod/starter/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.0.0.0/3Jm5LJghEjjJhQJl0cuHa88MZefhaM28/installer.exe",
+        "installerMD5": "152f3f2e195b11668ba7d8c89a27efba",
+        "installerSize": 414405728,
+        "version": "2.0.0.0"
+    }
+}
