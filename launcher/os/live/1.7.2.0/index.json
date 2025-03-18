@@ -116,7 +116,6 @@
         "th": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/th.json"
     },
     "resourcesGray": {
-        "grayUrl": "https://starter-server-api.kurogame.net/launcher/gray",
-        "graySwitch": 1
+        "graySwitch": 0
     }
 }
