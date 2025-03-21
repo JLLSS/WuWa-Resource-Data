@@ -61,7 +61,6 @@
         "th": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/th.json"
     },
     "resourcesGray": {
-        "grayUrl": "https://starter-server-api.kurogame.com/launcher/gray",
-        "graySwitch": 1
+        "graySwitch": 0
     }
 }
