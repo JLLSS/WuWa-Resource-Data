@@ -1,0 +1,121 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 0,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 265,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2519,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 1428,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "1. 支持游戏内容增量更新\n2. 全新 UI 界面升级\n3. 资源占用优化\n4. 优化了一些功能体验",
+            "de": "1. Unterstützt den Download neuer Ressourcen. (Bei einer Versionaktualisierung ist es nicht mehr erforderlich, das gesamte Spiel erneut herunterzuladen.)\n2. Vollständig überarbeitetes UI-Interface\n3. Optimierung der Launcher-Auslasung\n4. Verbesserung der Benutzererfahrung bei verschiedenen Funktionen",
+            "zh-Hant": "1. 支持遊戲內容增量更新\n2. 全新 UI 介面升級\n3. 資源占用優化\n4. 優化了一些功能體驗",
+            "ko": "1. 게임 콘텐츠에 대한 증분 업데이트 지원\n2. 새로운 UI 화면 업그레이드\n3. 자원 사용 최적화\n4. 일부 기능 최적화",
+            "ja": "1. ゲームの増分更新が可能に\n2. UIが大幅アップデート\n3. リソースコストの最適化\n4. 機能・体験の最適化",
+            "en": "1. Now supports incremental content updates\n2. Brand new user interface\n3. Optimized resource usage\n4. Improved the interactive experience of certain functionalities",
+            "fr": "1. Prise en charge des mises à jour incrémentales (Plus besoin de retélécharger le jeu complet lors des mises à jour)\n2. Optimisation de l'interface utilisateur\n3. Optimisation de l'utilisation du processeur\n4. Optimisation de certaines fonctionnalités",
+            "es": "1. Soporta actualizaciones incrementales del contenido del juego.\n2. Optimización de la IU.\n3. Optimización del uso de la CPU.\n4. Optimización de ciertas funcionalidades."
+        },
+        "installer": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.0.3.0/HQzcLEZIxBfEo9c3pHf3CXmbLB4OKCvG/installer.exe",
+        "installerMD5": "f10ac1c167d4e4230a7154a9c512da30",
+        "installerSize": 414246312,
+        "version": "2.0.3.0"
+    },
+    "crashInitSwitch": 1,
+    "animateBgSwitch": 1,
+    "animateBackground": {
+        "url": "pcstarter/prod/starter/background/VJpbviAkGD.zip",
+        "md5": "9810057b70e810505d5c1538b14c529e",
+        "frameRate": 20,
+        "durationInSecond": 12
+    },
+    "animateBackgroundLanguage": {
+        "de": {
+            "url": "pcstarter/prod/starter/background/VJpbviAkGD.zip",
+            "md5": "9810057b70e810505d5c1538b14c529e",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "en": {
+            "url": "pcstarter/prod/starter/background/vxSXidPngw.zip",
+            "md5": "ec68f52b516c595bb3a86be9b89f6898",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "es": {
+            "url": "pcstarter/prod/starter/background/UzYiwURSSZ.zip",
+            "md5": "fca2dab145a387e23ca59f60b040c77c",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "fr": {
+            "url": "pcstarter/prod/starter/background/TWyMzoPyor.zip",
+            "md5": "52e7ef728820ed6f35e10551385caf4c",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "ja": {
+            "url": "pcstarter/prod/starter/background/NiUYovDIFv.zip",
+            "md5": "20aec4f015c9c93a7037cf7cf709ea40",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "ko": {
+            "url": "pcstarter/prod/starter/background/VXnPHovuee.zip",
+            "md5": "5a08fb438d05e315e1c9cace1fdcd3bd",
+            "frameRate": 20,
+            "durationInSecond": 12
+        },
+        "zh-Hant": {
+            "url": "pcstarter/prod/starter/background/VsjWBgzUCI.zip",
+            "md5": "a54e529f11533ee1d54e24b0bfc1da8c",
+            "frameRate": 20,
+            "durationInSecond": 12
+        }
+    },
+    "navigationBarSwitch": 1,
+    "navigationBarLanguage": {
+        "zh-Hans": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/zh-Hans.json",
+        "en": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/en.json",
+        "ja": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/ja.json",
+        "ko": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/ko.json",
+        "zh-Hant": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/zh-Hant.json",
+        "fr": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/fr.json",
+        "de": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/de.json",
+        "es": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/es.json",
+        "ru": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/ru.json",
+        "pt": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/pt.json",
+        "id": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/id.json",
+        "vi": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/vi.json",
+        "th": "pcstarter/prod/starter/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/guidance/th.json"
+    },
+    "resourcesGray": {
+        "graySwitch": 0
+    }
+}

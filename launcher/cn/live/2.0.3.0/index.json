@@ -1,0 +1,66 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 396,
+                "url": "https://pcdownload-huoshan.aki-game.com/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 0,
+                "url": "https://pcdownload-qcloud.aki-game.com/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 1232,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "1. 支持游戏内容增量更新\n2. 全新 UI 界面升级\n3. 资源占用优化\n4. 优化了一些功能体验"
+        },
+        "installer": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.0.3.0/bUXvxyht4TzjGpx0K4M2WbMNiHaCm6O0/installer.exe",
+        "installerMD5": "aa958f294dee5f732a49ba0c019f80ca",
+        "installerSize": 414248848,
+        "version": "2.0.3.0"
+    },
+    "crashInitSwitch": 1,
+    "animateBgSwitch": 1,
+    "animateBackground": {
+        "url": "pcstarter/prod/starter/background/HsrqKpKbFO.zip",
+        "md5": "8a238f7edd521e97abe97358055da867",
+        "frameRate": 20,
+        "durationInSecond": 12
+    },
+    "animateBackgroundLanguage": {
+        "zh-Hans": {
+            "url": "pcstarter/prod/starter/background/HsrqKpKbFO.zip",
+            "md5": "8a238f7edd521e97abe97358055da867",
+            "frameRate": 20,
+            "durationInSecond": 12
+        }
+    },
+    "navigationBarSwitch": 1,
+    "navigationBarLanguage": {
+        "zh-Hans": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/zh-Hans.json",
+        "en": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/en.json",
+        "ja": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/ja.json",
+        "ko": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/ko.json",
+        "zh-Hant": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/zh-Hant.json",
+        "fr": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/fr.json",
+        "de": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/de.json",
+        "es": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/es.json",
+        "ru": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/ru.json",
+        "pt": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/pt.json",
+        "id": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/id.json",
+        "vi": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/vi.json",
+        "th": "pcstarter/prod/starter/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/guidance/th.json"
+    },
+    "resourcesGray": {
+        "graySwitch": 0
+    }
+}
