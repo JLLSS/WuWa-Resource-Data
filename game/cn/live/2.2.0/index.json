@@ -1,20 +1,11 @@
 {
     "chunkDownloadSwitch": 0,
     "keyFileCheckSwitch": 1,
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9f03afee53588b763e37e897e575b88e2270d507"
-    ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
-                "P": 396,
+                "P": 150,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
@@ -26,14 +17,16 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             },
             {
-                "P": 1232,
+                "P": 396,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/2.2.0/ifrkqjQOAZQkvNXJcAgTKlbRegvLoMZH/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/2.2.0/ifrkqjQOAZQkvNXJcAgTKlbRegvLoMZH/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "8be5047ce72fac7622d05a88c7d87173",
             "unCompressSize": 44803256944,
@@ -210,26 +203,27 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/2.2.0/ifrkqjQOAZQkvNXJcAgTKlbRegvLoMZH/resource.json",
-        "resourcesBasePath": "launcher/game/G152/2.2.0/ifrkqjQOAZQkvNXJcAgTKlbRegvLoMZH/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves (2).zip",
-                "md5": "29EE936DAB134BF27734BC3F2058B8B2",
-                "version": "2.2.0"
+                "version": "2.2.0",
+                "md5": "29EE936DAB134BF27734BC3F2058B8B2"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves (1).zip",
-                "md5": "86EF3ED54D1EFEE2BE07D2527CE557CA",
-                "version": "2.1.1"
+                "version": "2.1.1",
+                "md5": "86EF3ED54D1EFEE2BE07D2527CE557CA"
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.2.0"
+        "version": "2.2.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
+    "resourcesLogin": {
+        "host": "",
+        "loginSwitch": 0
+    },
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
@@ -263,10 +257,16 @@
             "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll"
         }
     },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
+    ],
+    "fingerprints": [
+        "b63333a20684cc947195443809114156e9e9cd07",
+        "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
