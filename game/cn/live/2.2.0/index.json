@@ -1,6 +1,20 @@
 {
     "chunkDownloadSwitch": 0,
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.com/launcher/gray",
+        "graySwitch": 1
+    },
     "keyFileCheckSwitch": 1,
+    "resourcesLogin": {
+        "host": "",
+        "loginSwitch": 0
+    },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
+    "fingerprints": [
+        "b63333a20684cc947195443809114156e9e9cd07",
+        "9f03afee53588b763e37e897e575b88e2270d507"
+    ],
     "default": {
         "sampleHashSwitch": 0,
         "cdnList": [
@@ -220,10 +234,6 @@
         "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
@@ -257,16 +267,10 @@
             "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll"
         }
     },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
-    ],
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
