@@ -1,6 +1,7 @@
 {
     "chunkDownloadSwitch": 0,
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 150,
@@ -21,8 +22,10 @@
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/2.3.0/rgDCoaMikpbzZqfRwDDtKaYFZKieFDDd/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/2.3.0/rgDCoaMikpbzZqfRwDDtKaYFZKieFDDd/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "b4835c9d34a54c3587137dbe0ad10b65",
             "unCompressSize": 41169323126,
@@ -56,24 +59,21 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/2.3.0/rgDCoaMikpbzZqfRwDDtKaYFZKieFDDd/resource.json",
-        "resourcesBasePath": "launcher/game/G152/2.3.0/rgDCoaMikpbzZqfRwDDtKaYFZKieFDDd/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves (2).zip",
-                "md5": "517883fde3db2d4f672fb05488138ddc",
-                "version": "2.3.0"
+                "version": "2.3.0",
+                "md5": "517883fde3db2d4f672fb05488138ddc"
             },
             "previousGameInfo": {
                 "fileName": "be36daf7de51.zip",
-                "md5": "",
-                "version": "2.2.2"
+                "version": "2.2.2",
+                "md5": ""
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.3.0"
+        "version": "2.3.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
@@ -105,13 +105,14 @@
     },
     "experiment": {
         "download": {
+            "downloadCdnSelectTestDuration": "5000",
             "downloadReadBlockTimeout": "30"
         },
         "res_check": {
             "fileChunkCheckSwitch": "1",
             "fileSizeCheckSwitch": "1",
             "resValidCheckTimeOut": "10",
-            "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll"
+            "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
         }
     },
     "checkExeIsRunning": 0,
