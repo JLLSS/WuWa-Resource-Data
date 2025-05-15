@@ -27,7 +27,7 @@ game = {
 def get_launcher_version(url):
     response = requests.get(url)
     data = response.json()
-    return data.get("default", {}).get("version", None), data
+    return data.get("default", {}).get("resource", None).get("version", None), data
 
 def get_game_version(url):
     response = requests.get(url)
