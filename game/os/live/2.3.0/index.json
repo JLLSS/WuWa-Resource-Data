@@ -1,5 +1,9 @@
 {
     "chunkDownloadSwitch": 0,
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
+        "graySwitch": 1
+    },
     "keyFileCheckSwitch": 1,
     "resourcesLogin": {
         "host": "",
@@ -12,6 +16,7 @@
         "78db074ad3d5cd803e1e422eeb7224121f5e19de"
     ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 0,
@@ -44,8 +49,10 @@
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "ddaaf94edbb97e0330684e0111d4d176",
             "unCompressSize": 46735358752,
@@ -222,24 +229,21 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/resource.json",
-        "resourcesBasePath": "launcher/game/G153/2.3.0/RGbMgHqjYkPmFROGPOSUvcMqrNSXrGgk/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves (2).zip",
-                "md5": "5679de45ac5b0e00b4b731a964a90761",
-                "version": "2.3.0"
+                "version": "2.3.0",
+                "md5": "5679de45ac5b0e00b4b731a964a90761"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "d60348f2fedb332709f0664dc2258e92",
-                "version": "2.2.1"
+                "version": "2.2.1",
+                "md5": "d60348f2fedb332709f0664dc2258e92"
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.3.0"
+        "version": "2.3.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
