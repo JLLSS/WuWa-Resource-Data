@@ -5,31 +5,31 @@
     "default": {
         "cdnList": [
             {
-                "P": 0,
+                "P": 1428,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
-                "P": 3768,
+                "P": 6647,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
             },
             {
-                "P": 1428,
+                "P": 3768,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             },
             {
-                "P": 2061,
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://pcdownload-huoshan.aki-game.net/"
             },
             {
-                "P": 150,
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"

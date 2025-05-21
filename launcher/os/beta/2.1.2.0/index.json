@@ -2,36 +2,43 @@
     "default": {
         "cdnList": [
             {
-                "P": 0,
+                "P": 1428,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
-                "P": 3768,
+                "P": 6647,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
             },
             {
-                "P": 1428,
+                "P": 3768,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             },
             {
-                "P": 2061,
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://pcdownload-huoshan.aki-game.net/"
             },
             {
-                "P": 150,
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "3709d355b9b2b271e78c0829460c0e5b",
+            "path": "launcher/launcher/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.1.2.0/VQYCJroqQJvvjgjjPsqDPqrgrqttclvk/launcher.zip",
+            "size": 380191993,
+            "version": "2.1.2.0",
+            "md5": "ca3cd12658abee3d798d7509203402c0"
+        },
         "changelog": {
             "zh-Hans": "优化了部分功能",
             "de": "Funktionen teilweise optimiert",
@@ -41,13 +48,6 @@
             "en": "Part of the functions optimized",
             "fr": "優化了部分功能",
             "es": "Optimizadas algunas funciones"
-        },
-        "resource": {
-            "fileCheckListMd5": "3709d355b9b2b271e78c0829460c0e5b",
-            "md5": "ca3cd12658abee3d798d7509203402c0",
-            "path": "launcher/launcher/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.1.2.0/VQYCJroqQJvvjgjjPsqDPqrgrqttclvk/launcher.zip",
-            "size": 380191993,
-            "version": "2.1.2.0"
         }
     },
     "functionCode": {},
