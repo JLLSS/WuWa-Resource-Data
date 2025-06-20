@@ -1,6 +1,7 @@
 {
     "chunkDownloadSwitch": 0,
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 150,
@@ -15,8 +16,10 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/2.4.0/HVdrrqmYpgHuukuFXCpGIOJMqxDyCGjo/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/2.4.0/HVdrrqmYpgHuukuFXCpGIOJMqxDyCGjo/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "8cf6fa282d659003df7f22713d1e990b",
             "unCompressSize": 48520062817,
@@ -61,24 +64,21 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/2.4.0/HVdrrqmYpgHuukuFXCpGIOJMqxDyCGjo/resource.json",
-        "resourcesBasePath": "launcher/game/G152/2.4.0/HVdrrqmYpgHuukuFXCpGIOJMqxDyCGjo/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "b911544f796cba741d4d14550be79444",
-                "version": "2.4.0"
+                "version": "2.4.0",
+                "md5": "b911544f796cba741d4d14550be79444"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves (2).zip",
-                "md5": "517883fde3db2d4f672fb05488138ddc",
-                "version": "2.3.0"
+                "version": "2.3.0",
+                "md5": "517883fde3db2d4f672fb05488138ddc"
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.4.0"
+        "version": "2.4.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
@@ -131,6 +131,7 @@
     ],
     "fingerprints": [
         "b63333a20684cc947195443809114156e9e9cd07",
+        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
         "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
