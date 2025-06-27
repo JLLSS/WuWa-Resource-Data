@@ -1,6 +1,7 @@
 {
     "chunkDownloadSwitch": 0,
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 150,
@@ -15,8 +16,10 @@
                 "url": "https://beta-pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10008/2.5.1/UwzMRFJBBipgUTKVIEpZpEDEWCBQfJju/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10008/2.5.1/UwzMRFJBBipgUTKVIEpZpEDEWCBQfJju/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "9a6f1f337ee60b3fd8b2f5d8d0394590",
             "unCompressSize": 52184225854,
@@ -70,24 +73,21 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10008/2.5.1/UwzMRFJBBipgUTKVIEpZpEDEWCBQfJju/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10008/2.5.1/UwzMRFJBBipgUTKVIEpZpEDEWCBQfJju/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves (1).zip",
-                "md5": "7798f3ac4f15c6692f5e377920d8afd8",
-                "version": "2.5.1"
+                "version": "2.5.1",
+                "md5": "7798f3ac4f15c6692f5e377920d8afd8"
             },
             "previousGameInfo": {
                 "fileName": "",
-                "md5": "",
-                "version": ""
+                "version": "",
+                "md5": ""
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.5.1"
+        "version": "2.5.1",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
@@ -128,6 +128,9 @@
             "fileSizeCheckSwitch": "1",
             "resValidCheckTimeOut": "10",
             "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
+        },
+        "apply": {
+            "applyMethodFeature": "group"
         }
     },
     "checkExeIsRunning": 0,
