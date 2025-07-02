@@ -1,0 +1,67 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "P": 1428,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "P": 6647,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "P": 3768,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "优化了部分功能",
+            "de": "Funktionen teilweise optimiert",
+            "zh-Hant": "優化了部分功能",
+            "ko": "일부 기능을 최적화함",
+            "ja": "ゲーム動作改善",
+            "en": "Part of the functions optimized",
+            "fr": "優化了部分功能",
+            "es": "Optimizadas algunas funciones"
+        },
+        "resource": {
+            "fileCheckListMd5": "4e2f1400a473e265c72502184510c128",
+            "md5": "dad62c3e6593325e2815e57c55b7e1c9",
+            "path": "launcher/launcher/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.2.0.0/UzskZnCgJBFcNwFPPmvYMYKvAGUDaXvm/launcher.zip",
+            "size": 392838080,
+            "version": "2.2.0.0"
+        }
+    },
+    "functionCode": {},
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1
+}
