@@ -7,13 +7,31 @@
                 "P": 1428,
                 "K1": 1,
                 "K2": 1,
-                "url": "https://beta-pcdownload-qcloud.aki-game.net/"
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "P": 3768,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
             },
             {
                 "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "url": "https://beta-pcdownload-huoshan.aki-game.net/"
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             }
         ],
         "resourcesBasePath": "launcher/game/G153/50013/2.5.0/FfUbHzOWPloGGIHcggLqsInhKeLzLPxI/zip",
