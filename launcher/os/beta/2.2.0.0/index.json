@@ -8,7 +8,7 @@
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
-                "P": 6647,
+                "P": 150,
                 "K1": 1,
                 "K2": 1,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
@@ -32,6 +32,13 @@
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "4e2f1400a473e265c72502184510c128",
+            "path": "launcher/launcher/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.2.0.0/UzskZnCgJBFcNwFPPmvYMYKvAGUDaXvm/launcher.zip",
+            "size": 392838080,
+            "version": "2.2.0.0",
+            "md5": "dad62c3e6593325e2815e57c55b7e1c9"
+        },
         "changelog": {
             "zh-Hans": "优化了部分功能",
             "de": "Funktionen teilweise optimiert",
@@ -41,13 +48,6 @@
             "en": "Part of the functions optimized",
             "fr": "優化了部分功能",
             "es": "Optimizadas algunas funciones"
-        },
-        "resource": {
-            "fileCheckListMd5": "4e2f1400a473e265c72502184510c128",
-            "md5": "dad62c3e6593325e2815e57c55b7e1c9",
-            "path": "launcher/launcher/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/G153/2.2.0.0/UzskZnCgJBFcNwFPPmvYMYKvAGUDaXvm/launcher.zip",
-            "size": 392838080,
-            "version": "2.2.0.0"
         }
     },
     "functionCode": {},
