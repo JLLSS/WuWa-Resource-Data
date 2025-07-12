@@ -311,6 +311,9 @@
             "fileSizeCheckSwitch": "1",
             "resValidCheckTimeOut": "10",
             "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
+        },
+        "apply": {
+            "applyMethodFeature": "group"
         }
     },
     "keyFileCheckList": [
