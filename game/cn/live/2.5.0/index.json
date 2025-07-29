@@ -1,40 +1,32 @@
 {
     "chunkDownloadSwitch": 0,
     "keyFileCheckSwitch": 1,
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
-        "9f03afee53588b763e37e897e575b88e2270d507"
-    ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
-                "P": 150,
                 "K1": 1,
                 "K2": 1,
+                "P": 396,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 150,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
+                "K1": 1,
+                "K2": 1,
                 "P": 0,
-                "K1": 1,
-                "K2": 1,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
-            },
-            {
-                "P": 396,
-                "K1": 1,
-                "K2": 1,
-                "url": "https://pcdownload-aliyun.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/2.5.0/ieSwSdtdphmQnCTauimbDmdmjpiqYecF/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/2.5.0/ieSwSdtdphmQnCTauimbDmdmjpiqYecF/resource.json",
+        "resourcesExcludePathNeedUpdate": [],
         "config": {
             "indexFileMd5": "a615755abaa2e697e8b2fb2006b6c5e6",
             "unCompressSize": 65604492495,
@@ -259,26 +251,27 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/2.5.0/ieSwSdtdphmQnCTauimbDmdmjpiqYecF/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/2.5.0/ieSwSdtdphmQnCTauimbDmdmjpiqYecF/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "e8dddc148bba2b1b4292fadd8eb15e38",
-                "version": "2.5.0"
+                "version": "2.5.0",
+                "md5": "e8dddc148bba2b1b4292fadd8eb15e38"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "90b91b349da8ffb3e5414ce7cb6c4b47",
-                "version": "2.4.1"
+                "version": "2.4.1",
+                "md5": "90b91b349da8ffb3e5414ce7cb6c4b47"
             }
         },
         "resourcesExcludePath": [],
-        "resourcesExcludePathNeedUpdate": [],
-        "sampleHashSwitch": 0,
-        "version": "2.5.0"
+        "version": "2.5.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
+    "resourcesLogin": {
+        "host": "",
+        "loginSwitch": 0
+    },
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
@@ -316,10 +309,17 @@
             "applyMethodFeature": "group"
         }
     },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
+    ],
+    "fingerprints": [
+        "b63333a20684cc947195443809114156e9e9cd07",
+        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
+        "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
