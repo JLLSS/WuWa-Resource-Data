@@ -2,7 +2,7 @@ name: Update index.json
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/20 * * * *" # This line has been changed
   workflow_dispatch:
 
 jobs:
