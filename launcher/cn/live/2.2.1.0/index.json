@@ -1,0 +1,53 @@
+{
+    "resourcesGray": {
+        "graySwitch": 0
+    },
+    "default": {
+        "cdnList": [
+            {
+                "P": 396,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.com/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-qcloud.aki-game.com/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "1.减少解压时所需的磁盘空间\n2.可在设置页面设定退出游戏时不弹启动器\n3.新增强制退出游戏功能\n4.修复了一些已知问题"
+        },
+        "resource": {
+            "fileCheckListMd5": "fc76a24b247a19adfb8e22e1ccbd5e07",
+            "md5": "63e2383926ae6ca6ee46cefc3a8fa10d",
+            "path": "launcher/launcher/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.2.1.0/jBSfQlnUxpxiyGMQtDcWWmWSZHfPGkSr/launcher.zip",
+            "size": 433805382,
+            "version": "2.2.1.0"
+        }
+    },
+    "functionCode": {
+        "background": "Q3zpp0sWgx3uwSb5rtxFubIgGoFeVspw"
+    },
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1
+}
