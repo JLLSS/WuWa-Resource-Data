@@ -35,6 +35,13 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "b8ee4ebf9c6ed1acd3193ea115e1a52a",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.2.1.0/XAFlUctKuBSXWzRvrGAOimEldqHqIYup/launcher.zip",
+            "size": 433803122,
+            "version": "2.2.1.0",
+            "md5": "b5c8fcd5784dfd2da209a118e63044db"
+        },
         "changelog": {
             "zh-Hans": "1.减少解压时所需的磁盘空间\n2.可在设置页面设定退出游戏时不弹启动器\n3.新增强制退出游戏功能\n4.修复了一些已知问题",
             "de": "\"1. Reduzierter Speicherplatzbedarf beim Entpacken.\n2. Neue Option in den Einstellungen: automatisches Öffnen des Launchers nach Spielende deaktivieren.\n3. Neue Funktion zum Erzwingen des Spielabbruchs.\n4. Einige bekannte Probleme behoben.\"",
@@ -44,17 +51,10 @@
             "en": "1. Reduced the disk space required for the decompression process.\n2. Added the option in the settings of preventing the launcher from popping up upon closing the game.\n3. Added the option of force quitting the game.\n4. Fixed some known issues.",
             "fr": "1. Réduction de l'espace disque requis pour la décompression.\n2. Nouvelle option : empêcher l'affichage du launcher à la fermeture du jeu \n3. Nouvelle option : forcer la fermeture du jeu \n4. Correction de plusieurs problèmes connus",
             "es": "1. Reducción del espacio necesario para descomprimir los recursos.\n2. Nueva opción en Ajustes para salir del juego sin mostrar el lanzador.\n3. Nueva función: Forzar salida.\n4. Reparación de algunos problemas conocidos."
-        },
-        "resource": {
-            "fileCheckListMd5": "b8ee4ebf9c6ed1acd3193ea115e1a52a",
-            "md5": "b5c8fcd5784dfd2da209a118e63044db",
-            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.2.1.0/XAFlUctKuBSXWzRvrGAOimEldqHqIYup/launcher.zip",
-            "size": 433803122,
-            "version": "2.2.1.0"
         }
     },
     "functionCode": {
-        "background": "6Z57eY3Hv5oEzugb5b4b7nv6kCxgMLoQ"
+        "background": "U82Wn9dbNc2o7zZBWz1cOnJm9r52qFKH"
     },
     "experiment": {
         "componentList": [
