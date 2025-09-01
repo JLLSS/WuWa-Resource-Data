@@ -1,5 +1,9 @@
 {
     "chunkDownloadSwitch": 0,
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
+        "graySwitch": 1
+    },
     "keyFileCheckSwitch": 1,
     "resourcesLogin": {
         "host": "",
@@ -12,6 +16,7 @@
         "78db074ad3d5cd803e1e422eeb7224121f5e19de"
     ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 1428,
@@ -44,8 +49,9 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/2.6.0/vjRSVRVUcliHOxTgAIIBaYdozsxSvujT/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/2.6.0/vjRSVRVUcliHOxTgAIIBaYdozsxSvujT/resource.json",
         "config": {
             "indexFileMd5": "e22beb43d686479bf07dbd8a7a16c15d",
             "unCompressSize": 71359175912,
@@ -286,22 +292,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/2.6.0/vjRSVRVUcliHOxTgAIIBaYdozsxSvujT/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/2.6.0/vjRSVRVUcliHOxTgAIIBaYdozsxSvujT/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "20bbc9ade0eaba662f72ffdb709215a5",
-                "version": "2.6.0"
+                "version": "2.6.0",
+                "md5": "20bbc9ade0eaba662f72ffdb709215a5"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves (1).zip",
-                "md5": "16c2e4d1248f4fd071f235bdcbf17d1d",
-                "version": "2.5.1"
+                "version": "2.5.1",
+                "md5": "16c2e4d1248f4fd071f235bdcbf17d1d"
             }
         },
-        "sampleHashSwitch": 0,
-        "version": "2.6.0"
+        "version": "2.6.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,

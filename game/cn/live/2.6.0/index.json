@@ -1,7 +1,23 @@
 {
     "chunkDownloadSwitch": 0,
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.com/launcher/gray",
+        "graySwitch": 1
+    },
     "keyFileCheckSwitch": 1,
+    "resourcesLogin": {
+        "host": "",
+        "loginSwitch": 0
+    },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
+    "fingerprints": [
+        "b63333a20684cc947195443809114156e9e9cd07",
+        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
+        "9f03afee53588b763e37e897e575b88e2270d507"
+    ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 396,
@@ -22,8 +38,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/2.6.0/PvvUtPgrOKbiVwNKSABGishwOHYgFPUf/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/2.6.0/PvvUtPgrOKbiVwNKSABGishwOHYgFPUf/resource.json",
         "config": {
             "indexFileMd5": "8197f169214b5229cb3979a3790dd715",
             "unCompressSize": 71836015175,
@@ -264,28 +281,22 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/2.6.0/PvvUtPgrOKbiVwNKSABGishwOHYgFPUf/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/2.6.0/PvvUtPgrOKbiVwNKSABGishwOHYgFPUf/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "6083323bc2b31431f486a5c83569eed8",
-                "version": "2.6.0"
+                "version": "2.6.0",
+                "md5": "6083323bc2b31431f486a5c83569eed8"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves.zip",
-                "md5": "913e5365c67249d38589f6c905bc1cf4",
-                "version": "2.5.1"
+                "version": "2.5.1",
+                "md5": "913e5365c67249d38589f6c905bc1cf4"
             }
         },
-        "sampleHashSwitch": 0,
-        "version": "2.6.0"
+        "version": "2.6.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
@@ -323,17 +334,10 @@
             "applyMethodFeature": "group"
         }
     },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
-    ],
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
-        "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
