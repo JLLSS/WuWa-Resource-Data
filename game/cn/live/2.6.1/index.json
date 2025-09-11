@@ -1,24 +1,40 @@
 {
     "chunkDownloadSwitch": 0,
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.com/launcher/gray",
+        "graySwitch": 1
+    },
+    "keyFileCheckSwitch": 1,
+    "resourcesLogin": {
+        "host": "",
+        "loginSwitch": 0
+    },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
+    "fingerprints": [
+        "b63333a20684cc947195443809114156e9e9cd07",
+        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
+        "9f03afee53588b763e37e897e575b88e2270d507"
+    ],
     "default": {
         "sampleHashSwitch": 0,
         "cdnList": [
             {
+                "P": 541,
                 "K1": 1,
                 "K2": 1,
-                "P": 541,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             },
             {
+                "P": 265,
                 "K1": 1,
                 "K2": 1,
-                "P": 265,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "P": 0,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
@@ -289,7 +305,6 @@
         "version": "2.6.1",
         "changelogVisible": 0
     },
-    "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
     "RHIOptionList": [
@@ -313,10 +328,6 @@
             "isShow": 1
         }
     ],
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
     "experiment": {
         "download": {
             "downloadCdnSelectTestDuration": "5000",
@@ -332,17 +343,10 @@
             "applyMethodFeature": "group"
         }
     },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
-    ],
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
-        "9f03afee53588b763e37e897e575b88e2270d507"
     ]
 }
