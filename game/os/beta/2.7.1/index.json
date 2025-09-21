@@ -1,0 +1,189 @@
+{
+    "chunkDownloadSwitch": 0,
+    "default": {
+        "cdnList": [
+            {
+                "P": 1428,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://beta-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://beta-pcdownload-huoshan.aki-game.net/"
+            }
+        ],
+        "changelog": {},
+        "changelogVisible": 0,
+        "config": {
+            "indexFileMd5": "5912e78bc44566dfc961be7bddfe79a3",
+            "unCompressSize": 60846725867,
+            "baseUrl": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/zip/",
+            "size": 60846725867,
+            "patchType": "hotFix",
+            "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/indexFile.json",
+            "version": "2.7.1",
+            "patchConfig": [
+                {
+                    "indexFileMd5": "4f39c820f03dc1e49be53d00992198c3",
+                    "unCompressSize": 60649102210,
+                    "ext": {},
+                    "baseUrl": "launcher/game/G153/50013/2.6.0/EbEAtWgpccTFeaMiWnSYcKOJxQWDJTxR/zip/",
+                    "size": 60649102210,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.2.0/indexFile.json",
+                    "version": "2.2.0"
+                },
+                {
+                    "indexFileMd5": "4f39c820f03dc1e49be53d00992198c3",
+                    "unCompressSize": 60649102210,
+                    "ext": {},
+                    "baseUrl": "launcher/game/G153/50013/2.6.0/EbEAtWgpccTFeaMiWnSYcKOJxQWDJTxR/zip/",
+                    "size": 60649102210,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.2.2/indexFile.json",
+                    "version": "2.2.2"
+                },
+                {
+                    "indexFileMd5": "ff442a0a0b21f9dd59d00d708cca2268",
+                    "unCompressSize": 60642454706,
+                    "ext": {},
+                    "baseUrl": "launcher/game/G153/50013/2.6.0/EbEAtWgpccTFeaMiWnSYcKOJxQWDJTxR/zip/",
+                    "size": 60642454706,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.3.0/indexFile.json",
+                    "version": "2.3.0"
+                },
+                {
+                    "indexFileMd5": "d7e6f73eb851ed23eb07ee36b964dc90",
+                    "unCompressSize": 115574023169,
+                    "ext": {
+                        "maxFileSize": 48157744567,
+                        "applyEvals": [
+                            {
+                                "unCompressSize": 5928829787,
+                                "size": 61898729400,
+                                "requiredDiskSpace": 3311293940,
+                                "name": "group",
+                                "maxFileSize": 8018997286
+                            }
+                        ]
+                    },
+                    "baseUrl": "launcher/game/G153/50013/2.6.0/EbEAtWgpccTFeaMiWnSYcKOJxQWDJTxR/resource/50013/2.6.0/2.4.0/resources/",
+                    "size": 108437720957,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.4.0/indexFile.json",
+                    "version": "2.4.0"
+                },
+                {
+                    "indexFileMd5": "92e15704ec52126447fdf56311d1a035",
+                    "unCompressSize": 115566253788,
+                    "ext": {
+                        "maxFileSize": 30689670170,
+                        "applyEvals": [
+                            {
+                                "unCompressSize": 45367430379,
+                                "size": 83194171676,
+                                "requiredDiskSpace": 11256606861,
+                                "name": "group",
+                                "maxFileSize": 4882343535
+                            }
+                        ]
+                    },
+                    "baseUrl": "launcher/game/G153/50013/2.6.0/EbEAtWgpccTFeaMiWnSYcKOJxQWDJTxR/resource/50013/2.6.0/2.5.0/resources/",
+                    "size": 90969646560,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.5.0/indexFile.json",
+                    "version": "2.5.0"
+                },
+                {
+                    "indexFileMd5": "a864ee804d2b1cdb9708f24570bc739c",
+                    "unCompressSize": 60279976390,
+                    "ext": {},
+                    "baseUrl": "launcher/game/G153/50013/2.7.0/OLybCugVqSDzPPxZbaUJttdgBTjKtFxY/zip/",
+                    "size": 60279976390,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.6.0/indexFile.json",
+                    "version": "2.6.0"
+                },
+                {
+                    "indexFileMd5": "452f7aeab2b23df8765e5aea4a7301e4",
+                    "unCompressSize": 60094400456,
+                    "ext": {},
+                    "baseUrl": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/zip/",
+                    "size": 60094400456,
+                    "indexFile": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource/50013/2.7.1/2.7.0/indexFile.json",
+                    "version": "2.7.0"
+                }
+            ]
+        },
+        "resources": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/resource.json",
+        "resourcesBasePath": "launcher/game/G153/50013/2.7.1/FrkwCuSPalURNySobyWqgdHbTamzkKRM/zip",
+        "resourcesDiff": {
+            "currentGameInfo": {
+                "fileName": "",
+                "md5": "9821783c0f30d90cdaa73f5a7a9a063e",
+                "version": "2.7.1"
+            },
+            "previousGameInfo": {
+                "fileName": "Wuthering Waves.zip",
+                "md5": "f8fdf0994451a551e2d9b57cef3fdbce",
+                "version": "2.7.0"
+            }
+        },
+        "sampleHashSwitch": 0,
+        "version": "2.7.1"
+    },
+    "keyFileCheckSwitch": 1,
+    "RHIOptionSwitch": 1,
+    "predownloadSwitch": 1,
+    "RHIOptionList": [
+        {
+            "cmdOption": "-dx12",
+            "text": {},
+            "isShow": 0
+        },
+        {
+            "cmdOption": "-dx11",
+            "text": {
+                "zh-Hans": "使用DX11启动（游戏异常时选择）",
+                "de": "Start mit DX11 (bei Anomalie)",
+                "zh-Hant": "使用DX11啟動（遊戲異常時選擇）",
+                "ko": "DX11로 시작하기 (게임 에러 시 선택)",
+                "ja": "DX11で起動（不具合発生時に選択）",
+                "en": "Launch with DirectX 11 (in case of game anomalies)",
+                "fr": "Démarrer en DX11 (à choisir en cas d'anomalie)",
+                "es": "Iniciar con DirectX 11 (si hay problemas)"
+            },
+            "isShow": 1
+        }
+    ],
+    "resourcesLogin": {
+        "host": "https://pc-launcher-sdk-api.kurogame.net",
+        "loginSwitch": 1
+    },
+    "experiment": {
+        "download": {
+            "enable_cdn_inteceptor": "1",
+            "downloadCdnSelectTestDuration": "5000",
+            "downloadReadBlockTimeout": "30"
+        },
+        "res_check": {
+            "fileChunkCheckSwitch": "1",
+            "fileSizeCheckSwitch": "1",
+            "resValidCheckTimeOut": "10",
+            "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
+        },
+        "apply": {
+            "applyMethodFeature": "group"
+        }
+    },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
+    "keyFileCheckList": [
+        "Client/Binaries/Win64/Client-Win64-Shipping.exe",
+        "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
+        "Wuthering Waves.exe",
+        "Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/KRSDKRes/KRSDK.bin"
+    ],
+    "fingerprints": [
+        "abd0851f12fabe6c77c223012318490214263661",
+        "78db074ad3d5cd803e1e422eeb7224121f5e19de"
+    ]
+}
