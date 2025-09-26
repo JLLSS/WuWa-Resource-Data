@@ -18,21 +18,21 @@
         "sampleHashSwitch": 0,
         "cdnList": [
             {
-                "P": 541,
                 "K1": 1,
                 "K2": 1,
+                "P": 698,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             },
             {
-                "P": 265,
                 "K1": 1,
                 "K2": 1,
+                "P": 396,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 0,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
