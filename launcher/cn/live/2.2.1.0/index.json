@@ -6,21 +6,21 @@
     "default": {
         "cdnList": [
             {
+                "P": 698,
                 "K1": 1,
                 "K2": 1,
-                "P": 698,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             },
             {
+                "P": 396,
                 "K1": 1,
                 "K2": 1,
-                "P": 396,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "P": 0,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
@@ -36,7 +36,7 @@
         }
     },
     "functionCode": {
-        "background": "lX2k0xoO4fN9FcWlHzfN959UHykEjEdX"
+        "background": "uLFtW2xkpd6TQUqBoOsl4M24TAZy7GAC"
     },
     "experiment": {
         "componentList": [

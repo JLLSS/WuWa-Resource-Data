@@ -6,33 +6,33 @@
     "default": {
         "cdnList": [
             {
+                "P": 150,
                 "K1": 1,
                 "K2": 1,
-                "P": 150,
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
+                "P": 396,
                 "K1": 1,
                 "K2": 1,
-                "P": 396,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
             },
             {
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "P": 0,
                 "url": "https://pcdownload-huoshan.aki-game.net/"
             },
             {
+                "P": 396,
                 "K1": 1,
                 "K2": 1,
-                "P": 396,
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             },
             {
+                "P": 3768,
                 "K1": 1,
                 "K2": 1,
-                "P": 3768,
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
@@ -55,7 +55,7 @@
         }
     },
     "functionCode": {
-        "background": "U82Wn9dbNc2o7zZBWz1cOnJm9r52qFKH"
+        "background": "nGmWMz0qGdCVicnGNmDmFUuoBwdd2ND8"
     },
     "experiment": {
         "componentList": [
