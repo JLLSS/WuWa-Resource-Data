@@ -8,12 +8,30 @@
     "checkExeIsRunning": 0,
     "hashCacheCheckAccSwitch": 1,
     "commandSwitch": 0,
-    "commandList": [],
+    "commandList": [
+        {
+            "default": 0,
+            "id": "hhvUWtXwdO",
+            "cmd": "-slno",
+            "text": {
+                "zh-Hans": "禁用DLSS（游戏异常时选择）",
+                "de": "DLSS deaktivieren (bei Spielanomalie)",
+                "zh-Hant": "禁用DLSS（遊戲異常時選擇）",
+                "ko": "DLSS 비활성화(게임에 오류 발생 시 선택)",
+                "th": "ปิดใช้งาน DLSS (เปิดเมื่อเกมผิดปกติ)",
+                "ja": "DLSSを無効化（不具合発生時）",
+                "en": "Disable DLSS (in case of game anomalies)",
+                "fr": "Désactiver le DLSS (à choisir en cas d'anomalie)",
+                "es": "Desactivar DLSS (en caso de fallo)"
+            }
+        }
+    ],
     "fingerprints": [
         "abd0851f12fabe6c77c223012318490214263661",
         "78db074ad3d5cd803e1e422eeb7224121f5e19de"
     ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 150,
@@ -46,8 +64,9 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/2.7.0/FvJDCbhdFzWeQFHYzCZZkAaIfjjSBXFL/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/2.7.0/FvJDCbhdFzWeQFHYzCZZkAaIfjjSBXFL/resource.json",
         "config": {
             "indexFileMd5": "7c0e1b9f1659ae16f5e7a05daf1ea2c2",
             "unCompressSize": 82612319335,
@@ -299,22 +318,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/2.7.0/FvJDCbhdFzWeQFHYzCZZkAaIfjjSBXFL/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/2.7.0/FvJDCbhdFzWeQFHYzCZZkAaIfjjSBXFL/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "d8e8f792cdcdd229453faef88a47c1ef",
-                "version": "2.7.0"
+                "version": "2.7.0",
+                "md5": "d8e8f792cdcdd229453faef88a47c1ef"
             },
             "previousGameInfo": {
                 "fileName": "Wuthering Waves (2).zip",
-                "md5": "27bf10d6d04691ece07f43d9c850423c",
-                "version": "2.6.2"
+                "version": "2.6.2",
+                "md5": "27bf10d6d04691ece07f43d9c850423c"
             }
         },
-        "sampleHashSwitch": 0,
-        "version": "2.7.0"
+        "version": "2.7.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,

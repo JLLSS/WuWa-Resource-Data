@@ -8,13 +8,23 @@
     "checkExeIsRunning": 0,
     "hashCacheCheckAccSwitch": 1,
     "commandSwitch": 0,
-    "commandList": [],
+    "commandList": [
+        {
+            "default": 0,
+            "id": "xQyKeTtuOJ",
+            "cmd": "-slno",
+            "text": {
+                "zh-Hans": "禁用DLSS（游戏异常时选择）"
+            }
+        }
+    ],
     "fingerprints": [
         "b63333a20684cc947195443809114156e9e9cd07",
         "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
         "9f03afee53588b763e37e897e575b88e2270d507"
     ],
     "default": {
+        "sampleHashSwitch": 0,
         "cdnList": [
             {
                 "P": 698,
@@ -35,8 +45,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/2.7.1/VNpaiLhzRkbHBNdinWAGQduNUBYeHaTD/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/2.7.1/VNpaiLhzRkbHBNdinWAGQduNUBYeHaTD/resource.json",
         "config": {
             "indexFileMd5": "a47667c70dbe7f539f26dbc07278406d",
             "unCompressSize": 83057842295,
@@ -288,22 +299,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/2.7.1/VNpaiLhzRkbHBNdinWAGQduNUBYeHaTD/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/2.7.1/VNpaiLhzRkbHBNdinWAGQduNUBYeHaTD/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "a00c87d9fcf3c434948c0f1ac86690c4",
-                "version": "2.7.0"
+                "version": "2.7.0",
+                "md5": "a00c87d9fcf3c434948c0f1ac86690c4"
             },
             "previousGameInfo": {
                 "fileName": "",
-                "md5": "6db81264eac500496c68c4cb51bcc722",
-                "version": "2.6.2"
+                "version": "2.6.2",
+                "md5": "6db81264eac500496c68c4cb51bcc722"
             }
         },
-        "sampleHashSwitch": 0,
-        "version": "2.7.0"
+        "version": "2.7.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
