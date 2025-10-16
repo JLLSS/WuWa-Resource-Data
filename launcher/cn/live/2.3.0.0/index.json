@@ -1,0 +1,50 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "P": 698,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            },
+            {
+                "P": 396,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.com/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-qcloud.aki-game.com/"
+            }
+        ],
+        "resource": {
+            "fileCheckListMd5": "bf4a17fbbdefd53bffcaca4555f86b27",
+            "path": "launcher/launcher/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.3.0.0/gBgKfKGeFMbdZqITRXPFgnTNWtdTcKbl/launcher.zip",
+            "size": 436113009,
+            "version": "2.3.0.0",
+            "md5": "08d31398a9ddbe6c17a4a9d0b5191f6b"
+        },
+        "changelog": {
+            "zh-Hans": "1.新增角色数据展示\n2.修复了一些已知问题"
+        }
+    },
+    "functionCode": {
+        "background": "uLFtW2xkpd6TQUqBoOsl4M24TAZy7GAC"
+    },
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1
+}

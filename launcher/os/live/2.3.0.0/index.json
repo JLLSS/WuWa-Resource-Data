@@ -1,0 +1,69 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "P": 1428,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            },
+            {
+                "P": 3768,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            }
+        ],
+        "resource": {
+            "fileCheckListMd5": "1f2cbf6af70cfd4b52a35e3061f504ae",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.3.0.0/kwgtKRcHIpWtqFocjLYWCsSqWeuxohvy/launcher.zip",
+            "size": 436110704,
+            "version": "2.3.0.0",
+            "md5": "67e17c4816b5e5945c689047bf72dae5"
+        },
+        "changelog": {
+            "zh-Hans": "1.新增角色数据展示\n2.修复了一些已知问题",
+            "de": "1. Daten der bereits angemeldeten Konten werden ab dem Update angezeigt.\n2. Einige bekannte Probleme wurden behoben",
+            "zh-Hant": "1.新增角色數據展示\n2.修復了一些已知問題",
+            "ko": "1. 캐릭터 정보 표시 기능이 추가되었습니다.\n2. 일부 확인된 문제가 수정되었습니다.",
+            "ja": "1.キャラ情報の表示画面を追加\n2.既知の不具合を修正",
+            "en": "1. Added the display of character stats.\n2. Resolved certain known issues.",
+            "fr": "1. Ajout de l'affichage des attributs des nouveaux personnages\n2. Correction de plusieurs problèmes connus",
+            "es": "1. Añadida visualización de estadísticas de personaje.\n2. Corregidos algunos problemas conocidos."
+        }
+    },
+    "functionCode": {
+        "background": "nGmWMz0qGdCVicnGNmDmFUuoBwdd2ND8"
+    },
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1
+}
