@@ -318,7 +318,7 @@
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
-            "cmdOption": "-dx12",
+            "cmdOption": "",
             "text": {},
             "isShow": 0
         },
