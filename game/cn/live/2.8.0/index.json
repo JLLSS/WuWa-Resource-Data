@@ -7,7 +7,7 @@
     },
     "checkExeIsRunning": 0,
     "hashCacheCheckAccSwitch": 1,
-    "commandSwitch": 0,
+    "commandSwitch": 1,
     "commandList": [
         {
             "default": 0,
@@ -44,8 +44,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/2.8.0/QqtoWZIMsZkiMQSwcmrYEFqYozeLagjd/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/2.8.0/QqtoWZIMsZkiMQSwcmrYEFqYozeLagjd/resource.json",
         "config": {
             "indexFileMd5": "b0df95e9dc462576257e209df03770a2",
             "unCompressSize": 88827190223,
@@ -306,21 +307,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/2.8.0/QqtoWZIMsZkiMQSwcmrYEFqYozeLagjd/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/2.8.0/QqtoWZIMsZkiMQSwcmrYEFqYozeLagjd/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "5cc148fa27fb05f004f5b8b87bab4c72",
-                "version": "2.8.0"
+                "version": "2.8.0",
+                "md5": "5cc148fa27fb05f004f5b8b87bab4c72"
             },
             "previousGameInfo": {
                 "fileName": "",
-                "md5": "a00c87d9fcf3c434948c0f1ac86690c4",
-                "version": "2.7.0"
+                "version": "2.7.0",
+                "md5": "a00c87d9fcf3c434948c0f1ac86690c4"
             }
         },
-        "version": "2.8.0"
+        "version": "2.8.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,

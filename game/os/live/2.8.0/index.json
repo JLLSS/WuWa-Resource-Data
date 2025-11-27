@@ -7,7 +7,7 @@
     },
     "checkExeIsRunning": 0,
     "hashCacheCheckAccSwitch": 1,
-    "commandSwitch": 0,
+    "commandSwitch": 1,
     "commandList": [
         {
             "default": 0,
@@ -63,8 +63,9 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/2.8.0/PVGTRZPhMXlZIvSlbcrDuaEGcfmVCJHb/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/2.8.0/PVGTRZPhMXlZIvSlbcrDuaEGcfmVCJHb/resource.json",
         "config": {
             "indexFileMd5": "f75ff425b3b6519291c39316f525aa13",
             "unCompressSize": 88386414792,
@@ -325,21 +326,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/2.8.0/PVGTRZPhMXlZIvSlbcrDuaEGcfmVCJHb/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/2.8.0/PVGTRZPhMXlZIvSlbcrDuaEGcfmVCJHb/zip",
         "resourcesDiff": {
             "currentGameInfo": {
                 "fileName": "",
-                "md5": "b95bb3ca8eb0bb0619b8f802638cb650",
-                "version": "2.8.0"
+                "version": "2.8.0",
+                "md5": "b95bb3ca8eb0bb0619b8f802638cb650"
             },
             "previousGameInfo": {
                 "fileName": "",
-                "md5": "d8e8f792cdcdd229453faef88a47c1ef",
-                "version": "2.7.0"
+                "version": "2.7.0",
+                "md5": "d8e8f792cdcdd229453faef88a47c1ef"
             }
         },
-        "version": "2.8.0"
+        "version": "2.8.0",
+        "changelogVisible": 0
     },
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
