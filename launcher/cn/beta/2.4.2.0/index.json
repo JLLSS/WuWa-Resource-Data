@@ -1,0 +1,48 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.com/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-qcloud.aki-game.com/"
+            }
+        ],
+        "changelog": {
+            "zh-Hans": "优化了部分功能"
+        },
+        "resource": {
+            "fileCheckListMd5": "5453313a70674bd600c7fd66cbd278bc",
+            "md5": "dfe7abdd97a4719fa326c019d5ba3e8e",
+            "path": "launcher/launcher/10008_Pa0Q0EMFxukjEqX33pF9Uyvdc8MaGPSz/G152/2.4.2.0/QQUwikWnUinJWgunZedGNDlMMlmKKHBR/launcher.zip",
+            "size": 461145564,
+            "version": "2.4.2.0"
+        }
+    },
+    "functionCode": {},
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1
+}
