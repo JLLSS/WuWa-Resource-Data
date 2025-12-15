@@ -23,15 +23,15 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
-        "changelog": {
-            "zh-Hans": "1. 优化了部分UI及功能体验\n2. 角色面板增加结晶单质上限和恢复满的时间"
-        },
         "resource": {
             "fileCheckListMd5": "ac9c32d14cf32f87a69d70e9a42013ac",
-            "md5": "935f372ab549be65f35c0c3e05fa6bbe",
             "path": "launcher/launcher/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.4.0.0/lTzehdXgTibLtbfqOKtlMlEPsENfipow/launcher.zip",
             "size": 461136731,
-            "version": "2.4.0.0"
+            "version": "2.4.0.0",
+            "md5": "935f372ab549be65f35c0c3e05fa6bbe"
+        },
+        "changelog": {
+            "zh-Hans": "1. 优化了部分UI及功能体验\n2. 角色面板增加结晶单质上限和恢复满的时间"
         }
     },
     "functionCode": {
@@ -47,7 +47,10 @@
                 "version": "133.0.3065.59",
                 "md5": "28114c06a191aa4fd061c767183cea58"
             }
-        ]
+        ],
+        "updater": {
+            "enableCDNSelect": false
+        }
     },
     "crashInitSwitch": 1
 }
