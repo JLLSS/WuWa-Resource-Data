@@ -35,6 +35,13 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "c9113d96d2233de4c103fce5b0978355",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.4.0.0/DlUaYiDEYzTwdCXdddTAoIqXfOhMWNSL/launcher.zip",
+            "size": 461134440,
+            "version": "2.4.0.0",
+            "md5": "be6bbdd3728f04ab3796034d74a1aa1e"
+        },
         "changelog": {
             "zh-Hans": "优化了部分功能",
             "de": "Funktionen teilweise optimiert",
@@ -44,13 +51,6 @@
             "en": "Part of the functions optimized",
             "fr": "Partie des fonctions optimisées",
             "es": "Optimizadas algunas funciones"
-        },
-        "resource": {
-            "fileCheckListMd5": "c9113d96d2233de4c103fce5b0978355",
-            "md5": "be6bbdd3728f04ab3796034d74a1aa1e",
-            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.4.0.0/DlUaYiDEYzTwdCXdddTAoIqXfOhMWNSL/launcher.zip",
-            "size": 461134440,
-            "version": "2.4.0.0"
         }
     },
     "functionCode": {
@@ -66,7 +66,10 @@
                 "version": "133.0.3065.59",
                 "md5": "28114c06a191aa4fd061c767183cea58"
             }
-        ]
+        ],
+        "updater": {
+            "enableCDNSelect": false
+        }
     },
     "crashInitSwitch": 1
 }
