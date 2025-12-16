@@ -335,6 +335,7 @@
                 "de": "Start mit DX11 (bei Anomalie)",
                 "zh-Hant": "使用DX11啟動（遊戲異常時選擇）",
                 "ko": "DX11로 시작하기 (게임 에러 시 선택)",
+                "th": "ใช้ DX11 ในการเปิดเกม (ใช้ตอนเกมผิดปกติ)",
                 "ja": "DX11で起動（不具合発生時に選択）",
                 "en": "Launch with DirectX 11 (in case of game anomalies)",
                 "fr": "Démarrer en DX11 (à choisir en cas d'anomalie)",
