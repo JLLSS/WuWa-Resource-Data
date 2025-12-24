@@ -23,19 +23,19 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
-        "changelog": {
-            "zh-Hans": "优化了部分功能"
-        },
         "resource": {
             "fileCheckListMd5": "330006b27b5ae4c236c9fcf8b1e0a015",
-            "md5": "39c6eeb95d10e5317c6f4b6db535ad8f",
             "path": "launcher/launcher/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.5.0.0/lYjSRupwXMYhEYHnfEFfYYYhuWpeDLtD/launcher.zip",
             "size": 461882170,
-            "version": "2.5.0.0"
+            "version": "2.5.0.0",
+            "md5": "39c6eeb95d10e5317c6f4b6db535ad8f"
+        },
+        "changelog": {
+            "zh-Hans": "优化了部分功能"
         }
     },
     "functionCode": {
-        "background": "bw7anFqCdWGtL6oCezwYLmdG2en6DIfs"
+        "background": "ucLkUF6LaT5NqcUzIoLQIUu3ALrdU2qL"
     },
     "experiment": {
         "componentList": [
