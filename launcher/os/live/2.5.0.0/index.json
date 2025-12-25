@@ -69,7 +69,7 @@
             }
         ],
         "updater": {
-            "enableCDNSelect": false
+            "enableCDNSelect": true
         }
     },
     "crashInitSwitch": 1
