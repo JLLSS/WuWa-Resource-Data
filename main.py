@@ -32,7 +32,7 @@ def get_launcher_version(url):
 def get_game_version(url):
     response = requests.get(url)
     data = response.json()
-    return data.get("default", {}).get("resourcesDiff", {}).get("currentGameInfo", {}).get("version", None), data
+    return data.get("default", {}).get("version", None), data
 
 def save_json_to_file(directory, filename, data):
     if not os.path.exists(directory):
