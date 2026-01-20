@@ -351,6 +351,9 @@
         "loginSwitch": 0
     },
     "experiment": {
+        "repair": {
+            "directoryIntegrityCheckList": "[{\"dir\":\"Client/Content/Paks\",\"exts\":[\"pak\",\"sig\"],\"recursive\":true}]"
+        },
         "download": {
             "downloadCdnSelectTestDuration": "5000",
             "downloadReadBlockTimeout": "30"
