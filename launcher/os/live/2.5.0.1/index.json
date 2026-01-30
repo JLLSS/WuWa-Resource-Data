@@ -1,0 +1,77 @@
+{
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
+        "graySwitch": 1
+    },
+    "default": {
+        "cdnList": [
+            {
+                "P": 150,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "P": 396,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "P": 396,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
+            },
+            {
+                "P": 3768,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            }
+        ],
+        "resource": {
+            "fileCheckListMd5": "d5f6e0d34966cceff33f18741e4441b9",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.5.0.1/XAuSnlEKLVFgxSGaKMfMAHgTAholQFrZ/launcher.zip",
+            "size": 461689363,
+            "version": "2.5.0.1",
+            "md5": "7489b72fa5c42566e2382fdfa08d0674"
+        },
+        "changelog": {
+            "zh-Hans": "优化了部分功能",
+            "de": "Funktionen teilweise optimiert",
+            "zh-Hant": "優化了部分功能",
+            "ko": "일부 기능을 최적화함",
+            "th": "ปรับปรุงประสบการณ์การใช้งานบางส่วนให้ดียิ่งขึ้น",
+            "ja": "ゲーム動作改善",
+            "en": "Part of the functions optimized",
+            "fr": "Partie des fonctions optimisées",
+            "es": "Optimizadas algunas funciones"
+        }
+    },
+    "functionCode": {
+        "background": "osSoX33XAYMxC2726DTYybvrM7vJBQwi"
+    },
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ],
+        "updater": {
+            "enableCDNSelect": true
+        }
+    },
+    "crashInitSwitch": 1
+}

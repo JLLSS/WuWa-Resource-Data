@@ -1,0 +1,57 @@
+{
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.com/launcher/gray",
+        "graySwitch": 1
+    },
+    "default": {
+        "cdnList": [
+            {
+                "P": 698,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-aliyun.aki-game.com/"
+            },
+            {
+                "P": 396,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-huoshan.aki-game.com/"
+            },
+            {
+                "P": 0,
+                "K1": 1,
+                "K2": 1,
+                "url": "https://pcdownload-qcloud.aki-game.com/"
+            }
+        ],
+        "resource": {
+            "fileCheckListMd5": "5cd6ba95cd3f6cf3773170929f41a1a9",
+            "path": "launcher/launcher/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/G152/2.5.0.1/PARLiowkIekzcPcRDhbgptVjsPrKahTV/launcher.zip",
+            "size": 461691782,
+            "version": "2.5.0.1",
+            "md5": "d5c99da6eaaf3c197539ebda655be449"
+        },
+        "changelog": {
+            "zh-Hans": "优化了部分功能"
+        }
+    },
+    "functionCode": {
+        "background": "ucLkUF6LaT5NqcUzIoLQIUu3ALrdU2qL"
+    },
+    "experiment": {
+        "componentList": [
+            {
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "Id": "KRWebViewRuntime",
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ],
+        "updater": {
+            "enableCDNSelect": true
+        }
+    },
+    "crashInitSwitch": 1
+}
