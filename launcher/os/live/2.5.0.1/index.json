@@ -1,7 +1,6 @@
 {
     "resourcesGray": {
-        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
-        "graySwitch": 1
+        "graySwitch": 0
     },
     "default": {
         "cdnList": [
