@@ -35,6 +35,13 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "d83cc2ceb47c62f3becfd93f0fcab418",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.5.1.0/vtIWPIhDkawxwvpURIjctlncwrIijipO/launcher.zip",
+            "size": 469982209,
+            "version": "2.5.1.0",
+            "md5": "f5e2b9a41473b179d0889eaa26c87c02"
+        },
         "changelog": {
             "zh-Hans": "优化了部分功能",
             "de": "Funktionen teilweise optimiert",
@@ -45,13 +52,6 @@
             "en": "Part of the functions optimized",
             "fr": "Partie des fonctions optimisées",
             "es": "Optimizadas algunas funciones"
-        },
-        "resource": {
-            "fileCheckListMd5": "d83cc2ceb47c62f3becfd93f0fcab418",
-            "md5": "f5e2b9a41473b179d0889eaa26c87c02",
-            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.5.1.0/vtIWPIhDkawxwvpURIjctlncwrIijipO/launcher.zip",
-            "size": 469982209,
-            "version": "2.5.1.0"
         }
     },
     "functionCode": {
@@ -69,7 +69,7 @@
             }
         ],
         "updater": {
-            "enableCDNSelect": true
+            "enableCDNSelect": false
         }
     },
     "crashInitSwitch": 1

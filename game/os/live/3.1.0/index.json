@@ -32,8 +32,9 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/3.1.1/XfkUzvRvsSBNDeWsWrmbfnrNkrszHjox/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/3.1.1/XfkUzvRvsSBNDeWsWrmbfnrNkrszHjox/resource.json",
         "config": {
             "indexFileMd5": "da544e564592e4c633e5c262e795a2ef",
             "unCompressSize": 134116570225,
@@ -366,9 +367,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/3.1.1/XfkUzvRvsSBNDeWsWrmbfnrNkrszHjox/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/3.1.1/XfkUzvRvsSBNDeWsWrmbfnrNkrszHjox/zip",
-        "version": "3.1.0"
+        "version": "3.1.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
