@@ -20,8 +20,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/3.1.1/YkPEOzYygqgsEPNjXfTVdGufTzzepKlS/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/3.1.1/YkPEOzYygqgsEPNjXfTVdGufTzzepKlS/resource.json",
         "config": {
             "indexFileMd5": "86c89cbf5296e591ab2b12478cd7dabd",
             "unCompressSize": 134336973526,
@@ -345,9 +346,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/3.1.1/YkPEOzYygqgsEPNjXfTVdGufTzzepKlS/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/3.1.1/YkPEOzYygqgsEPNjXfTVdGufTzzepKlS/zip",
-        "version": "3.1.0"
+        "version": "3.1.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
