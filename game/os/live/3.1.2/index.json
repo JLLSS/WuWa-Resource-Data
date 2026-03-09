@@ -1,4 +1,7 @@
 {
+    "resourcesGray": {
+        "graySwitch": 0
+    },
     "default": {
         "cdnList": [
             {
