@@ -38,6 +38,7 @@
         "background": "8aeZ9Ar4As0s6j7S1gyP2XaKKkdLBAun"
     },
     "experiment": {
+        "mainButtonExitGameEntry": 1,
         "componentList": [
             {
                 "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
