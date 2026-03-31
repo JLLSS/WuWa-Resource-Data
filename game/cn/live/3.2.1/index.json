@@ -2,26 +2,27 @@
     "default": {
         "cdnList": [
             {
-                "P": 698,
                 "K1": 1,
                 "K2": 1,
+                "P": 9943,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             },
             {
-                "P": 396,
                 "K1": 1,
                 "K2": 1,
+                "P": 3768,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 0,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/3.2.1/xmHnEznrUpZTltpCCmmFEpqOSXQokFPZ/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/3.2.1/xmHnEznrUpZTltpCCmmFEpqOSXQokFPZ/resource.json",
         "config": {
             "indexFileMd5": "e664c66b42df6d44163c944b0cb6355f",
             "unCompressSize": 123327875987,
@@ -384,9 +385,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/3.2.1/xmHnEznrUpZTltpCCmmFEpqOSXQokFPZ/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/3.2.1/xmHnEznrUpZTltpCCmmFEpqOSXQokFPZ/zip",
-        "version": "3.2.1"
+        "version": "3.2.1",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
