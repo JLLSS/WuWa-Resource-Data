@@ -1,34 +1,38 @@
 {
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
+        "graySwitch": 1
+    },
     "default": {
         "cdnList": [
             {
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "P": 0,
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
+                "P": 0,
                 "K1": 1,
                 "K2": 1,
-                "P": 0,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
             },
             {
+                "P": 150,
                 "K1": 1,
                 "K2": 1,
-                "P": 150,
                 "url": "https://pcdownload-huoshan.aki-game.net/"
             },
             {
+                "P": 1843,
                 "K1": 1,
                 "K2": 1,
-                "P": 1843,
                 "url": "https://hw-pcdownload-aliyun.aki-game.net/"
             },
             {
+                "P": 6035,
                 "K1": 1,
                 "K2": 1,
-                "P": 6035,
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
