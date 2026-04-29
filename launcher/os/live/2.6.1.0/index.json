@@ -32,6 +32,13 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resource": {
+            "fileCheckListMd5": "042b3f22a7a24998a9b499bd95980ba1",
+            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.6.1.0/BmZGoTJifSZDNocRcTfdnTdRyrQhjqUe/launcher.zip",
+            "size": 447705717,
+            "version": "2.6.1.0",
+            "md5": "4bf2f4fe8facda85affd44e498b30f08"
+        },
         "changelog": {
             "zh-Hans": "优化了部分功能",
             "de": "Funktionen teilweise optimiert",
@@ -42,17 +49,10 @@
             "en": "Part of the functions optimized",
             "fr": "Partie des fonctions optimisées",
             "es": "Optimizadas algunas funciones"
-        },
-        "resource": {
-            "fileCheckListMd5": "042b3f22a7a24998a9b499bd95980ba1",
-            "md5": "4bf2f4fe8facda85affd44e498b30f08",
-            "path": "launcher/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/2.6.1.0/BmZGoTJifSZDNocRcTfdnTdRyrQhjqUe/launcher.zip",
-            "size": 447705717,
-            "version": "2.6.1.0"
         }
     },
     "functionCode": {
-        "background": "84H0TeyqjYmie6teoxfnOHhdqQ9qPh70"
+        "background": "X6G8LhJbizkXwDOT03OAa9SlteUNhP81"
     },
     "experiment": {
         "componentList": [
