@@ -2,38 +2,33 @@
     "default": {
         "cdnList": [
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 2989,
                 "url": "https://hw-pcdownload-qcloud.aki-game.net/"
             },
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 2989,
                 "url": "https://hw-pcdownload-aws.aki-game.net/"
             },
             {
-                "P": 150,
                 "K1": 1,
                 "K2": 1,
+                "P": 4084,
                 "url": "https://pcdownload-huoshan.aki-game.net/"
             },
             {
-                "P": 2205,
                 "K1": 1,
                 "K2": 1,
-                "url": "https://hw-pcdownload-aliyun.aki-game.net/"
-            },
-            {
-                "P": 7857,
-                "K1": 1,
-                "K2": 1,
+                "P": 0,
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/3.3.0/havaNOxMkiRcphWdKDvjILpCxEmxoxEx/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/3.3.0/havaNOxMkiRcphWdKDvjILpCxEmxoxEx/resource.json",
         "config": {
             "indexFileMd5": "9214741ee69cc3d43ce65f92fa945fde",
             "unCompressSize": 106887022428,
@@ -429,9 +424,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/3.3.0/havaNOxMkiRcphWdKDvjILpCxEmxoxEx/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/3.3.0/havaNOxMkiRcphWdKDvjILpCxEmxoxEx/zip",
-        "version": "3.3.0"
+        "version": "3.3.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,

@@ -3,20 +3,21 @@
     "default": {
         "cdnList": [
             {
-                "P": 1428,
                 "K1": 1,
                 "K2": 1,
+                "P": 2989,
                 "url": "https://beta-pcdownload-qcloud.aki-game.net/"
             },
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 4084,
                 "url": "https://beta-pcdownload-huoshan.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50013/3.3.1/yzcsUJYighLdsdJIJGeyqpcPueUluGtB/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50013/3.3.1/yzcsUJYighLdsdJIJGeyqpcPueUluGtB/resource.json",
         "config": {
             "indexFileMd5": "d46f33454b94052372f1b71e21047be2",
             "unCompressSize": 118936369617,
@@ -167,9 +168,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50013/3.3.1/yzcsUJYighLdsdJIJGeyqpcPueUluGtB/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50013/3.3.1/yzcsUJYighLdsdJIJGeyqpcPueUluGtB/zip",
-        "version": "3.3.1"
+        "version": "3.3.1",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
