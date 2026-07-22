@@ -1,4 +1,8 @@
 {
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.com/launcher/gray",
+        "graySwitch": 1
+    },
     "default": {
         "cdnList": [
             {
@@ -20,8 +24,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/3.5.2/fXlLuzbPtnlnBTLOXAPKSgJefnPuOuqO/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/3.5.2/fXlLuzbPtnlnBTLOXAPKSgJefnPuOuqO/resource.json",
         "config": {
             "indexFileMd5": "ad313e4b53fd460c2dc2703795b68f81",
             "unCompressSize": 84391965997,
@@ -435,9 +440,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/3.5.2/fXlLuzbPtnlnBTLOXAPKSgJefnPuOuqO/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/3.5.2/fXlLuzbPtnlnBTLOXAPKSgJefnPuOuqO/zip",
-        "version": "3.5.2"
+        "version": "3.5.2",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
