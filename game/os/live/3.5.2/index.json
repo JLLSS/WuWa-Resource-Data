@@ -1,4 +1,8 @@
 {
+    "resourcesGray": {
+        "grayUrl": "https://pc-launcher-gray-api.kurogame.net/launcher/gray",
+        "graySwitch": 1
+    },
     "default": {
         "cdnList": [
             {
@@ -20,8 +24,9 @@
                 "url": "https://hw-pcdownload-akamai.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50004/3.5.2/RxCoTPNnVxnHpaqTVIwLgLLoLwdkUKlI/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50004/3.5.2/RxCoTPNnVxnHpaqTVIwLgLLoLwdkUKlI/resource.json",
         "config": {
             "indexFileMd5": "01a36eb2bb6a7e020a28b1e3ef50c7ac",
             "unCompressSize": 84162939160,
@@ -462,9 +467,8 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50004/3.5.2/RxCoTPNnVxnHpaqTVIwLgLLoLwdkUKlI/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50004/3.5.2/RxCoTPNnVxnHpaqTVIwLgLLoLwdkUKlI/zip",
-        "version": "3.5.2"
+        "version": "3.5.2",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
