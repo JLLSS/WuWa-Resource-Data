@@ -15,8 +15,9 @@
                 "url": "https://beta-pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10008/3.6.3/HJrqIQcAUrewgCzjLrrJkEiAaYuQOpBg/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10008/3.6.3/HJrqIQcAUrewgCzjLrrJkEiAaYuQOpBg/resource.json",
         "config": {
             "indexFileMd5": "a7dac3f4c58c3af9f668e41c0996e7ee",
             "unCompressSize": 85181215183,
@@ -300,16 +301,15 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10008/3.6.3/HJrqIQcAUrewgCzjLrrJkEiAaYuQOpBg/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10008/3.6.3/HJrqIQcAUrewgCzjLrrJkEiAaYuQOpBg/zip",
-        "version": "3.6.3"
+        "version": "3.6.3",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
-            "cmdOption": "-dx12",
+            "cmdOption": "",
             "text": {},
             "isShow": 0
         },
