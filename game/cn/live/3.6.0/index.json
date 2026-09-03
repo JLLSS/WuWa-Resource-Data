@@ -20,8 +20,9 @@
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G152/10003/3.6.0/NUNandQydLwvsqEMgvklzHubouvTalca/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G152/10003/3.6.0/NUNandQydLwvsqEMgvklzHubouvTalca/resource.json",
         "config": {
             "indexFileMd5": "809d7e6892f28404f592066816948e09",
             "unCompressSize": 89408316433,
@@ -453,21 +454,20 @@
                 }
             ]
         },
-        "resources": "launcher/game/G152/10003/3.6.0/NUNandQydLwvsqEMgvklzHubouvTalca/resource.json",
-        "resourcesBasePath": "launcher/game/G152/10003/3.6.0/NUNandQydLwvsqEMgvklzHubouvTalca/zip",
-        "version": "3.6.0"
+        "version": "3.6.0",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
-            "cmdOption": "",
+            "cmdOption": "-krqlv=hd",
             "text": {},
             "isShow": 0
         },
         {
-            "cmdOption": "-dx11",
+            "cmdOption": "-dx11 -krqlv=hd",
             "text": {
                 "zh-Hans": "使用DX11启动（游戏异常时选择）",
                 "de": "Start mit DX11 (bei Anomalie)",
