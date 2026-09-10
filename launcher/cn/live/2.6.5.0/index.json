@@ -2,21 +2,21 @@
     "default": {
         "cdnList": [
             {
-                "P": 13416,
                 "K1": 1,
                 "K2": 1,
+                "P": 8714,
                 "url": "https://pcdownload-aliyun.aki-game.com/"
             },
             {
-                "P": 4743,
                 "K1": 1,
                 "K2": 1,
+                "P": 1677,
                 "url": "https://pcdownload-huoshan.aki-game.com/"
             },
             {
-                "P": 0,
                 "K1": 1,
                 "K2": 1,
+                "P": 0,
                 "url": "https://pcdownload-qcloud.aki-game.com/"
             }
         ],
