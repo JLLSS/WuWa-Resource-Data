@@ -1,0 +1,68 @@
+{
+    "default": {
+        "cdnList": [
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 1677,
+                "url": "https://hw-pcdownload-qcloud.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 0,
+                "url": "https://pcdownload-huoshan.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 2177,
+                "url": "https://hw-pcdownload-akamai.aki-game.net/"
+            },
+            {
+                "K1": 1,
+                "K2": 1,
+                "P": 7276,
+                "url": "https://hw-pcdownload-aws.aki-game.net/"
+            }
+        ],
+        "resource": {
+            "fileCheckListMd5": "7fe50c94d6c955901fdc4f1d5948b9c1",
+            "path": "launcher/app/50004_P7xcUZnEr1AXIGON25E6KjpOgTlVrg6e/parent/3.0.0.0/009676d000704bcb96696a037f20a5ee/launcher.zip",
+            "size": 465194084,
+            "version": "3.0.0.0",
+            "md5": "047bff043b318374d3d0636d48a5fc73"
+        },
+        "changelog": {
+            "en": "1. Part of the functions optimized\n2. Launcher UI Update",
+            "zh-Hans": "1. 优化了部分功能\n2. 启动器 UI 更新",
+            "ja": "1. ゲーム動作改善\n2. ランチャーUIの更新",
+            "ko": "1. 일부 기능을 최적화함\n2. 런처 UI 업데이트",
+            "zh-Hant": "1. 優化了部分功能\n2. 啟動器 UI 更新",
+            "fr": "1. Partie des fonctions optimisées\n2. Mise à jour de l'interface du launcher",
+            "pt-BR": "1. Parte das funções otimizadas\n2. Atualização da interface do Launcher",
+            "es": "1. Optimizadas algunas funciones\n2. Optimización de la IU.",
+            "de": "1. Funktionen teilweise optimiert\n2. Aktualisierung der Launcher-Oberfläche",
+            "th": "1. ปรับปรุงประสบการณ์การใช้งานบางส่วนให้ดียิ่งขึ้น\n2. อัปเดต UI ของลันเชอร์"
+        }
+    },
+    "experiment": {
+        "updater": {
+            "enableCDNSelect": true
+        },
+        "componentList": [
+            {
+                "Id": "KRWebViewRuntime",
+                "fileCheckListMd5": "852c066819f820fd02bc3634a831d9fa",
+                "path": "launcher/environment/KRWebViewRuntime.zip",
+                "size": 249517572,
+                "version": "133.0.3065.59",
+                "md5": "28114c06a191aa4fd061c767183cea58"
+            }
+        ]
+    },
+    "crashInitSwitch": 1,
+    "resourcesGray": {
+        "graySwitch": 0
+    }
+}
