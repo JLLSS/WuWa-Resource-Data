@@ -1,36 +1,33 @@
 {
-    "default": {
-        "cdnList": [
-            {
-                "P": 8714,
-                "K1": 1,
-                "K2": 1,
-                "url": "https://pcdownload-aliyun.aki-game.com/"
-            },
-            {
-                "P": 1677,
-                "K1": 1,
-                "K2": 1,
-                "url": "https://pcdownload-huoshan.aki-game.com/"
-            },
-            {
-                "P": 0,
-                "K1": 1,
-                "K2": 1,
-                "url": "https://pcdownload-qcloud.aki-game.com/"
-            }
-        ],
-        "resourcesBasePath": "launcher/game/G152/10003/3.6.1/vkEQunJOqFRIPtgRHeOMucFdntMVzYuk/zip",
-        "changelog": {},
-        "resources": "launcher/game/G152/10003/3.6.1/vkEQunJOqFRIPtgRHeOMucFdntMVzYuk/resource.json",
-        "config": {
+    "cdnList": [
+        {
+            "P": 13416,
+            "K1": 1,
+            "K2": 1,
+            "url": "https://pcdownload-aliyun.aki-game.com/"
+        },
+        {
+            "P": 4743,
+            "K1": 1,
+            "K2": 1,
+            "url": "https://pcdownload-huoshan.aki-game.com/"
+        },
+        {
+            "P": 0,
+            "K1": 1,
+            "K2": 1,
+            "url": "https://pcdownload-qcloud.aki-game.com/"
+        }
+    ],
+    "resourcePacks": {
+        "common": {
+            "version": "3.6.1",
+            "indexFile": "launcher/game/G152/10003/3.6.1/vkEQunJOqFRIPtgRHeOMucFdntMVzYuk/resource/10003/3.6.1/indexFile.json",
             "indexFileMd5": "0a74b5e7fad3ad0ba4d5192694c2199e",
-            "unCompressSize": 89756790255,
             "baseUrl": "launcher/game/G152/10003/3.6.1/vkEQunJOqFRIPtgRHeOMucFdntMVzYuk/zip/",
             "size": 89756790255,
-            "patchType": "hotFix",
-            "indexFile": "launcher/game/G152/10003/3.6.1/vkEQunJOqFRIPtgRHeOMucFdntMVzYuk/resource/10003/3.6.1/indexFile.json",
-            "version": "3.6.1",
+            "unCompressSize": 89756790255,
+            "patchType": "patch",
             "patchConfig": [
                 {
                     "indexFileMd5": "708368f8f7958b44f199af9015fa769e",
@@ -462,76 +459,143 @@
                     "version": "3.6.0"
                 }
             ]
-        },
-        "version": "3.6.1",
-        "changelogVisible": 0
-    },
-    "keyFileCheckSwitch": 1,
-    "RHIOptionSwitch": 1,
-    "predownloadSwitch": 1,
-    "RHIOptionList": [
-        {
-            "cmdOption": "-krqlv=hd",
-            "text": {},
-            "isShow": 0
-        },
-        {
-            "cmdOption": "-dx11 -krqlv=hd",
-            "text": {
-                "zh-Hans": "使用DX11启动（游戏异常时选择）",
-                "de": "Start mit DX11 (bei Anomalie)",
-                "zh-Hant": "使用DX11啟動（遊戲異常時選擇）",
-                "ko": "DX11로 시작하기 (게임 에러 시 선택)",
-                "ja": "DX11で起動（不具合発生時に選択）",
-                "en": "Launch with DirectX 11 (in case of game anomalies)",
-                "fr": "Démarrer en DX11 (à choisir en cas d'anomalie)",
-                "es": "Iniciar con DirectX 11 (si hay problemas)"
-            },
-            "isShow": 1
-        }
-    ],
-    "resourcesLogin": {
-        "host": "",
-        "loginSwitch": 0
-    },
-    "experiment": {
-        "repair": {
-            "directoryIntegrityCheckList": "[{\"dir\":\"Client/Content/Paks\",\"exts\":[\"pak\",\"sig\"],\"recursive\":true}]"
-        },
-        "download": {
-            "downloadCdnSelectTestDuration": "5000",
-            "downloadReadBlockTimeout": "30"
-        },
-        "res_check": {
-            "fileChunkCheckSwitch": "1",
-            "fileSizeCheckSwitch": "1",
-            "resValidCheckTimeOut": "10",
-            "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
-        },
-        "apply": {
-            "applyMethodFeature": "group"
         }
     },
-    "commandSwitch": 1,
-    "keyFileCheckList": [
-        "Client/Binaries/Win64/Client-Win64-Shipping.exe",
-        "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
-        "Wuthering Waves.exe",
-        "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
-    ],
-    "commandList": [
-        {
-            "default": 0,
-            "id": "xQyKeTtuOJ",
-            "cmd": "-slno",
-            "text": {
-                "zh-Hans": "禁用DLSS（游戏异常时选择）"
+    "bundles": {
+        "HD": {
+            "resourcePacks": [
+                "common"
+            ],
+            "config": {
+                "displayName": {
+                    "de": "Hoch",
+                    "en": "HD",
+                    "es": "Alta",
+                    "fr": "Élevée",
+                    "ja": "高画質",
+                    "ko": "고품질",
+                    "th": "สูง",
+                    "pt-BR": "Alta",
+                    "zh-Hans": "高清",
+                    "zh-Hant": "高畫質"
+                },
+                "recommendGpu": [
+                    "NVIDIA GeForce RTX 3060",
+                    "NVIDIA GeForce RTX 4060",
+                    "NVIDIA GeForce RTX 5070 Laptop GPU",
+                    "NVIDIA GeForce RTX 5060 Laptop GPU",
+                    "NVIDIA GeForce RTX 4060 Ti",
+                    "NVIDIA GeForce RTX 5050 Laptop GPU",
+                    "NVIDIA GeForce RTX 5060",
+                    "NVIDIA GeForce RTX 2060",
+                    "NVIDIA GeForce RTX 3060 Ti",
+                    "NVIDIA GeForce RTX 3070",
+                    "NVIDIA GeForce RTX 5060 Ti",
+                    "NVIDIA GeForce RTX 4070 Laptop GPU",
+                    "NVIDIA GeForce RTX 4060 Laptop GPU",
+                    "AMD Radeon RX 6750 GRE 10GB",
+                    "NVIDIA GeForce RTX 3080",
+                    "NVIDIA GeForce RTX 3070 Ti",
+                    "NVIDIA GeForce RTX 2060 SUPER",
+                    "NVIDIA GeForce RTX 4050 Laptop GPU",
+                    "AMD Radeon RX 6750 GRE 12GB",
+                    "NVIDIA GeForce RTX 3080 Laptop GPU",
+                    "NVIDIA GeForce RTX 2070",
+                    "AMD Radeon RX 6650 XT",
+                    "NVIDIA GeForce RTX 2070 SUPER",
+                    "AMD Radeon RX 7650 GRE",
+                    "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+                    "AMD Radeon RX 6600",
+                    "AMD Radeon RX 5700 XT",
+                    "AMD Radeon RX 6750 XT",
+                    "AMD Radeon RX 6700 XT",
+                    "AMD Radeon RX 6600 XT",
+                    "NVIDIA GeForce RTX 3080 Ti",
+                    "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "Intel(R) Arc(TM) B580 Graphics",
+                    "NVIDIA GeForce RTX 2050",
+                    "AMD Radeon RX 5600 XT",
+                    "NVIDIA GeForce RTX 2080",
+                    "AMD Radeon RX 6800 XT",
+                    "NVIDIA GeForce RTX 2080 SUPER",
+                    "NVIDIA GeForce GTX 1080",
+                    "NVIDIA GeForce RTX 3060 Laptop GPU",
+                    "NVIDIA GeForce RTX 2080 Ti",
+                    "NVIDIA GeForce GTX 1080 Ti",
+                    "AMD Radeon RX 7600",
+                    "NVIDIA GeForce RTX 3090",
+                    "NVIDIA GeForce RTX 5050"
+                ]
             }
         }
-    ],
-    "fingerprints": [
-        "b63333a20684cc947195443809114156e9e9cd07",
-        "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
-        "9f03afee53588b763e37e897e575b88e2270d507"
-    ]
+    },
+    "config": {
+        "keyFileCheckSwitch": 1,
+        "keyFileCheckList": [
+            "Client/Binaries/Win64/Client-Win64-Shipping.exe",
+            "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
+            "Wuthering Waves.exe",
+            "Client/Binaries/Win64/ThirdParty/KrPcSdk_Mainland/KRSDKRes/KRSDKConfig.json"
+        ],
+        "predownloadSwitch": 1,
+        "functionCode": {
+            "background": "9436865fa9c94371a83b21def86d4c20"
+        },
+        "experiment": {
+            "repair": {
+                "directoryIntegrityCheckList": "[{\"dir\":\"Client/Content/Paks\",\"exts\":[\"pak\",\"sig\"],\"recursive\":true}]"
+            },
+            "download": {
+                "downloadCdnSelectTestDuration": "5000",
+                "downloadReadBlockTimeout": "30"
+            },
+            "res_check": {
+                "fileChunkCheckSwitch": "1",
+                "fileSizeCheckSwitch": "1",
+                "resValidCheckTimeOut": "10",
+                "fileCheckWhiteListConfig": "Client/Config/RTX.json:Engine/Plugins/Runtime/Nvidia/Streamline/Binaries/ThirdParty/Win64/sl.pcl.dll:Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe"
+            },
+            "apply": {
+                "applyMethodFeature": "group"
+            }
+        },
+        "fingerprints": [
+            "b63333a20684cc947195443809114156e9e9cd07",
+            "9736c5df5ac35c26ec884e1ad0e15342b54f17ad",
+            "9f03afee53588b763e37e897e575b88e2270d507"
+        ],
+        "commandSwitch": 1,
+        "commandList": [
+            {
+                "default": 0,
+                "id": "xQyKeTtuOJ",
+                "cmd": "-slno",
+                "text": {
+                    "zh-Hans": "禁用DLSS（游戏异常时选择）"
+                }
+            }
+        ],
+        "RHIOptionSwitch": 1,
+        "RHIOptionList": [
+            {
+                "cmdOption": "",
+                "text": {},
+                "isShow": 0
+            },
+            {
+                "cmdOption": "-dx11",
+                "text": {
+                    "zh-Hans": "使用DX11启动（游戏异常时选择）",
+                    "de": "Start mit DX11 (bei Anomalie)",
+                    "zh-Hant": "使用DX11啟動（遊戲異常時選擇）",
+                    "ko": "DX11로 시작하기 (게임 에러 시 선택)",
+                    "ja": "DX11で起動（不具合発生時に選択）",
+                    "en": "Launch with DirectX 11 (in case of game anomalies)",
+                    "fr": "Démarrer en DX11 (à choisir en cas d'anomalie)",
+                    "es": "Iniciar con DirectX 11 (si hay problemas)"
+                },
+                "isShow": 1
+            }
+        ]
+    }
 }
