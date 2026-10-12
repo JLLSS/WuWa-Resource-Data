@@ -15,8 +15,9 @@
                 "url": "https://beta-pcdownload-huoshan.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50013/3.7.2/CUdteJwevRDACSPgmSYvUwplxfNefObo/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50013/3.7.2/CUdteJwevRDACSPgmSYvUwplxfNefObo/resource.json",
         "config": {
             "indexFileMd5": "8cecf28f90737a107cce12d0f33c8913",
             "unCompressSize": 59237178391,
@@ -239,16 +240,15 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50013/3.7.2/CUdteJwevRDACSPgmSYvUwplxfNefObo/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50013/3.7.2/CUdteJwevRDACSPgmSYvUwplxfNefObo/zip",
-        "version": "3.7.2"
+        "version": "3.7.2",
+        "changelogVisible": 0
     },
     "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
     "RHIOptionList": [
         {
-            "cmdOption": "-dx12",
+            "cmdOption": "-krqlv=hd",
             "text": {},
             "isShow": 0
         },
