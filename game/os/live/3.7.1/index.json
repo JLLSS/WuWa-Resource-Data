@@ -1025,6 +1025,9 @@
             "background": "51684874bd1f48e3ab98fb8b06b96ceb"
         }
     },
-    "resourcesGray": null,
+    "resourcesGray": {
+        "graySwitch": 1,
+        "grayUrl": "https://pc-launcher-gray-api-v3.kurogames.net/launcher/gray"
+    },
     "predownload": null
 }
