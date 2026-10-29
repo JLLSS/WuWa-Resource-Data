@@ -1,5 +1,53 @@
 {
     "chunkDownloadSwitch": 0,
+    "keyFileCheckSwitch": 1,
+    "resourcesLogin": {
+        "host": "https://pc-launcher-sdk-api.kurogame.net",
+        "loginSwitch": 1
+    },
+    "checkExeIsRunning": 0,
+    "hashCacheCheckAccSwitch": 1,
+    "commandSwitch": 1,
+    "commandList": [
+        {
+            "default": 1,
+            "id": "LmEbUXUBaO",
+            "cmd": "-krqlv=hd",
+            "text": {
+                "zh-Hans": "高清启动",
+                "de": "HD",
+                "zh-Hant": "高畫質",
+                "ko": "고품질",
+                "th": "สูง (HD)",
+                "pt-BR": "HD",
+                "ja": "高画質",
+                "en": "HD",
+                "fr": "Haute définition (HD)",
+                "es": "Alta"
+            }
+        },
+        {
+            "default": 0,
+            "id": "hhvUWtXwdO",
+            "cmd": "-slno",
+            "text": {
+                "zh-Hans": "禁用DLSS（游戏异常时选择）",
+                "de": "DLSS deaktivieren (bei Spielanomalie)",
+                "zh-Hant": "禁用DLSS（遊戲異常時選擇）",
+                "ko": "DLSS 비활성화(게임에 오류 발생 시 선택)",
+                "th": "ปิดใช้งาน DLSS (เปิดเมื่อเกมผิดปกติ)",
+                "pt-BR": "Desabilitar DLSS (em caso de anomalias no jogo)",
+                "ja": "DLSSを無効化（不具合発生時）",
+                "en": "Disable DLSS (in case of game anomalies)",
+                "fr": "Désactiver le DLSS (à choisir en cas d'anomalie)",
+                "es": "Desactivar DLSS (en caso de fallo)"
+            }
+        }
+    ],
+    "fingerprints": [
+        "abd0851f12fabe6c77c223012318490214263661",
+        "78db074ad3d5cd803e1e422eeb7224121f5e19de"
+    ],
     "default": {
         "cdnList": [
             {
@@ -15,8 +63,9 @@
                 "url": "https://beta-pcdownload-huoshan.aki-game.net/"
             }
         ],
+        "resourcesBasePath": "launcher/game/G153/50013/3.8.1/CNKlZqFBYCCpmfeuiiHPDALyrSPXRakD/zip",
         "changelog": {},
-        "changelogVisible": 0,
+        "resources": "launcher/game/G153/50013/3.8.1/CNKlZqFBYCCpmfeuiiHPDALyrSPXRakD/resource.json",
         "config": {
             "indexFileMd5": "658b93df949bc30d1c921181158a5e97",
             "unCompressSize": 57900470191,
@@ -248,11 +297,9 @@
                 }
             ]
         },
-        "resources": "launcher/game/G153/50013/3.8.1/CNKlZqFBYCCpmfeuiiHPDALyrSPXRakD/resource.json",
-        "resourcesBasePath": "launcher/game/G153/50013/3.8.1/CNKlZqFBYCCpmfeuiiHPDALyrSPXRakD/zip",
-        "version": "3.8.1"
+        "version": "3.8.1",
+        "changelogVisible": 0
     },
-    "keyFileCheckSwitch": 1,
     "RHIOptionSwitch": 1,
     "predownloadSwitch": 1,
     "RHIOptionList": [
@@ -276,10 +323,6 @@
             "isShow": 1
         }
     ],
-    "resourcesLogin": {
-        "host": "https://pc-launcher-sdk-api.kurogame.net",
-        "loginSwitch": 1
-    },
     "experiment": {
         "download": {
             "enable_cdn_inteceptor": "1",
@@ -296,16 +339,10 @@
             "applyMethodFeature": "group"
         }
     },
-    "checkExeIsRunning": 0,
-    "hashCacheCheckAccSwitch": 1,
     "keyFileCheckList": [
         "Client/Binaries/Win64/Client-Win64-Shipping.exe",
         "Client/Binaries/Win64/Client-Win64-ShippingBase.dll",
         "Wuthering Waves.exe",
         "Client/Binaries/Win64/ThirdParty/KrPcSdk_Global/KRSDKRes/KRSDK.bin"
-    ],
-    "fingerprints": [
-        "abd0851f12fabe6c77c223012318490214263661",
-        "78db074ad3d5cd803e1e422eeb7224121f5e19de"
     ]
 }
